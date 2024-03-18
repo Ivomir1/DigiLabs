@@ -65,9 +65,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Usage
 
-4 Routes Calling http://localhost/api/ROUTE  **
+4 Routes Calling http://localhost/api/ROUTE  
 
-Route::get('/joke', [DataController::class, 'joke']);**
-Route::get('/initials', [DataController::class, 'initials']);**
-Route::get('/mathcheck', [DataController::class, 'mathcheck']);**
-Route::get('/createdat', [DataController::class, 'createdat']);**
+Route::get('/joke', [DataController::class, 'joke']) <br>
+Route::get('/initials', [DataController::class, 'initials']) <br>
+Route::get('/mathcheck', [DataController::class, 'mathcheck']) <br>
+Route::get('/createdat', [DataController::class, 'createdat']) <br>
