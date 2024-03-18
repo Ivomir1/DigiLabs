@@ -62,3 +62,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Usage
+
+Route::get('/joke', [DataController::class, 'joke']);
+Route::get('/initials', [DataController::class, 'initials']);
+Route::get('/mathcheck', [DataController::class, 'mathcheck']);
+Route::get('/createdat', [DataController::class, 'createdat']);
